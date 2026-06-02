@@ -838,9 +838,123 @@ a {
 
 /* Tablet */
 
-@media (min-width: 768px) and (max-width: 1025px) {
-    .contacts-container {
-        width: 100%;
-        margin: auto;
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    /* HERO */
+    .hero-section {
+        padding: 80px 40px;
     }
-}
+
+    .hero-content {
+        margin-top: 0;
+    }
+
+    .hero-details {
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .deco-image {
+        width: 40%;
+        right: -60px;
+        bottom: -40px;
+    }
+
+    /* LOVE STORY */
+    .story-section {
+        padding: 80px 50px;
+        gap: 30px;
+    }
+
+    .story-text {
+        max-width: 700px;
+    }
+
+    /* GALLERY */
+    .gallery-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+
+    .gallery-large {
+        height: 550px;
+    }
+
+    .gallery-thumb-first,
+    .gallery-thumb-second {
+        height: 260px;
+    }
+
+    /* SCHEDULE */
+    .schedule-container {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+    .schedule-left,
+    .schedule-right {
+        align-items: center;
+    }
+
+    .schedule-header {
+        text-align: center;
+    }
+
+    .sched-date {
+        margin-left: 0;
+    }
+
+    .timeline-item {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .stacked-images-container {
+        width: 400px;
+        height: 380px;
+    }
+
+    .stack-img {
+        width: 260px;
+        height: 260px;
+    }
+
+    .stacked-loc {
+        left: 100px;
+    }
+
+    /* FOOTER */
+    .footer-content-wrapper {
+        grid-template-columns: 1fr;
+        gap: 50px;
+        padding: 50px 30px;
+    }
+
+    .footer-title-wrapper {
+        top: -50px;
+    }
+
+    .contacts-container {
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .rsvp-action-container {
+        justify-content: center;
+    }
+
+    /* RSVP POPUP */
+    .rsvp-title-text {
+        font-size: 64px;
+        letter-spacing: 12px;
+    }
+
+    .rsvp-description {
+        font-size: 28px;
+    }
+
+    .form-label {
+        font-size: 20px;
+    }
