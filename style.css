@@ -643,6 +643,9 @@ a {
 }
 
 /* 7. LAYOUT (DESKTOP) */
+
+/* Mobile*/
+
 @media (min-width: 768px) {
     /* 1. Halaman utama Layout */
     .hero-section {
@@ -669,6 +672,8 @@ a {
         justify-content: center;
     }
 }
+
+/* Desktop */
 
 @media (min-width: 1024px) {
     /* 2. Love Story Layout */
@@ -829,4 +834,13 @@ a {
         right: 10px;
     }
 
+}
+
+/* Tablet */
+
+@media (min-width: 768px) and (max-width: 1025px) {
+    .contacts-container {
+        width: 100%;
+        margin: auto;
+    }
 }
